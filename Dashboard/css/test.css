@@ -88,7 +88,7 @@ a:hover{
 }
 
 .main h1{
-    margin-left: 1775px;
+    margin-left: 1774px;
     color: white;
 }
 
@@ -211,7 +211,10 @@ a:hover{
     to {
       filter: hue-rotate(360deg);
     }
-  }   
+  }
+  
+    
+    
   
   .container2:hover{
     color: none ;
