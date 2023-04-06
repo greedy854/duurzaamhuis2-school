@@ -11,7 +11,8 @@
 }
 body{
     background: linear-gradient(to right, black, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    overflow: hidden;
+    
 }
 .container{
     display: flex;
@@ -109,6 +110,7 @@ li:hover{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: -200px;
 }
 .main-skills .card{
     width: 20%;
@@ -168,11 +170,89 @@ li:hover{
     color: #fff;
 }
 
+.main-skills3{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -1000px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+    
+    
+    
+}
+.main-skills3 .card3{
+    width: 20%;
+    margin: 10px;
+    background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.main-skills3 .card3 a{
+    width: 100%;
+}
+
+.main-skills3 .card3 a:hover{
+    background: linear-gradient(to right, #3c3b3f, #605c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    
+}
+
+.main-skills3 .card3 h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main-skills3 .card3 p{
+    font-size: 12px;
+}
+.main-skills3 .card3 button{
+    background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.main-skills3 .card3 button:hover{
+    background: linear-gradient(to right, #283048, #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main-skills3 .card3:hover{
+    background: linear-gradient(to right, #3c3b3f, #605c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+}
+
+.main-skills3 .card3 button h3{
+    color: #fff;
+}
+
+.main-skills3 .card3 i{
+    font-size: 22px;
+    padding: 10px;
+    color: #fff;
+}
+
 .card h3{
     color: #fff;
 }
 
 .card p{
+    color: #fff;
+}
+.card3 h3{
+    color: #fff;
+}
+
+.card3 p{
     color: #fff;
 }
 .container2 {
