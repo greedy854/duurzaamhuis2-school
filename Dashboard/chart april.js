@@ -30,7 +30,7 @@ const data = {
         {
             label: "Verbruik van gebruiker per maand",
             data: [207.140317, 300, 297.050817,],
-            backgroundColor: ['rgba(0, 255, 77, 0.35)', 'rgba(61, 209, 211, 0.35)', 'rgba(225, 225, 28, 0.35)', ]
+            backgroundColor: ['rgba(18, 255, 14, 0.24)', 'rgba(14, 214, 255, 0.24)', 'rgba(246, 255, 14, 0.24)', ]
         }
     ]
 }
