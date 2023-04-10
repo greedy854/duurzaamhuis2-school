@@ -48,6 +48,9 @@ nav{
     padding-left: 15px;
     font-size: 18px;
     text-transform: uppercase;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 a{
     position: relative;
