@@ -36,7 +36,9 @@ h1 {
   font-weight: bold;
   padding-left: 15px;
   font-size: 18px;
-  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 12px;
+  color: #78FE05;
 }
 a{
   position: relative;
@@ -105,4 +107,19 @@ color: #212121;
 .container > div:nth-child(2) > .developer-img {
   border: 3px solid rgba(3, 255, 0, 0.42);;
   box-shadow: 0px 0px 15px rgba(3, 255, 0, 0.42);;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }

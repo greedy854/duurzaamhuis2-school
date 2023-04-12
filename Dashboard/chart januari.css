@@ -23,6 +23,26 @@ body{
     grid-template-rows: repeat(12,1fr);
 
 }
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 45px; 
+    height: 45px;
+    border-radius: 50% ;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
 /*section 1*/
 
 .section--first{
