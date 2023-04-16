@@ -26,7 +26,57 @@ body{
     transition: 0.6s ease-out;
 }
 
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 45px; 
+    height: 45px;
+    border-radius: 50% ;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+a{
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+}
+nav .fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+nav span{
+    font-size: 18px
+}
+.logout{
+    position: absolute;
+    bottom:0;
+}
+
 .search-box{
+    
     width: 100%;
     height: min-content;
     display: flex;
@@ -41,6 +91,7 @@ body{
     font-weight: 500;
     text-transform: uppercase;
     padding-left: 32px;
+    
 }
 
 .search-box input::placeholder{
@@ -48,6 +99,7 @@ body{
     font-weight: 500;
     color: #06283D;
     text-transform: capitalize;
+    
 }
 
 .search-box button{

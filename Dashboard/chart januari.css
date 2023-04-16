@@ -43,6 +43,9 @@ body{
     border-right: none;
 }
 
+a{
+    color: black;
+}
 /*section 1*/
 
 .section--first{

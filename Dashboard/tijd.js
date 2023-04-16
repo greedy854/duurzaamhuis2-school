@@ -21,3 +21,8 @@ function displayTime(){
     document.getElementById("clock").innerHTML = hour + ":" + min + ":" + sec;
 }
 setInterval(displayTime, 1000);
+document.addEventListener("DOMContentLoaded", function(event){
+    const currentDate = new Date();
+    const paragraph = document.querySelector('#js--date');
+    paragraph.innerHTML = currentDate.toDateString();
+});
